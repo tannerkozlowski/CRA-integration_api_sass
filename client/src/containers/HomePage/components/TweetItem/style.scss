@@ -1,0 +1,53 @@
+@import 'styles/variables.scss';
+
+.tweet-item {
+  display: flex;
+  align-items: start;
+  min-height: 170px;
+  margin: 20px;
+  color: $color-light-black;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px 0 rgba($color-black, 0.2);
+
+  &__left {
+    padding: 10px;
+  }
+
+  &__right {
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+  }
+
+  &__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 5px;
+  }
+
+  &__name {
+    padding-right: 10px;
+
+    &-username {
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+    &-nickname {
+      color: $color-dark;
+    }
+  }
+
+  &__content {
+    color: $color-black;
+  }
+
+  @media (max-width: 1300px) {
+    min-height: 220px;
+  }
+
+  @media (max-width: $tablet-width) {
+    min-height: 150px;
+  }
+}

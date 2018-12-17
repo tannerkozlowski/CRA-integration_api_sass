@@ -1,0 +1,23 @@
+@import 'styles/variables.scss';
+
+.react-datepicker {
+  font-size: 1.1rem;
+
+  &__current {
+    &-month {
+      font-size: 1.2rem;
+    }
+  }
+
+  &-time {
+    &__header {
+      font-size: 1.2rem;
+    }
+  }
+
+  &__time {
+    &-list {
+      padding: 0;
+    }
+  }
+}

@@ -1,0 +1,105 @@
+.setting-modal {
+  color: #777; }
+  .setting-modal .modal-content {
+    background: #fcfcfc; }
+  .setting-modal .close {
+    font-size: 40px; }
+  .setting-modal h4 {
+    padding-left: 15px; }
+  .setting-modal__content {
+    padding: 20px; }
+  .setting-modal__footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 40px; }
+    .setting-modal__footer-reset {
+      width: 100%;
+      text-align: left; }
+    .setting-modal__footer-save {
+      width: 100%; }
+  .setting-modal__button {
+    width: 80px; }
+  .setting-modal__block {
+    margin: 40px 0;
+    background: #fcfcfc; }
+    .setting-modal__block:first-child {
+      margin-top: 0; }
+    .setting-modal__block:last-child {
+      margin-bottom: 0; }
+  .setting-modal__label {
+    position: absolute;
+    padding: 0 5px;
+    margin: 0 10px;
+    font-weight: 600;
+    background: #fcfcfc; }
+  .setting-modal__columnorder {
+    position: relative;
+    border: 2px solid #ddd; }
+    .setting-modal__columnorder-label {
+      top: -9%; }
+    .setting-modal__columnorder-panel {
+      margin: 20px 0;
+      padding: 0 15px;
+      font-weight: 500;
+      list-style: none; }
+    .setting-modal__columnorder-item {
+      margin: 15px 0;
+      width: 140px; }
+      .setting-modal__columnorder-item:hover {
+        cursor: pointer; }
+        .setting-modal__columnorder-item:hover:first-child {
+          cursor: default; }
+      .setting-modal__columnorder-item__icon {
+        float: right; }
+  .setting-modal__daterange {
+    position: relative;
+    padding-left: 0;
+    padding-right: 0;
+    border: 2px solid #ddd; }
+    .setting-modal__daterange-label {
+      top: -8%; }
+    .setting-modal__daterange-from, .setting-modal__daterange-to {
+      display: flex;
+      align-items: center;
+      padding: 20px 0; }
+    .setting-modal__daterange-to {
+      padding-top: 0; }
+    .setting-modal__daterange-text {
+      padding-right: 0; }
+    .setting-modal__daterange .react-datepicker__input-container {
+      width: 200px; }
+    @media (max-width: 767px) {
+      .setting-modal__daterange-input {
+        width: 100%;
+        text-align: right; }
+      .setting-modal__daterange .react-datepicker__input-container {
+        width: auto; } }
+  .setting-modal__tweetnumber {
+    position: relative;
+    border: 2px solid #ddd; }
+    .setting-modal__tweetnumber-label {
+      top: -5%; }
+    .setting-modal__tweetnumber-panel {
+      display: flex;
+      align-items: center;
+      flex-direction: column; }
+    .setting-modal__tweetnumber-item {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      padding: 0 15px;
+      margin-top: 20px; }
+    .setting-modal__tweetnumber-slider {
+      width: 270px;
+      margin-left: 20px; }
+    .setting-modal__tweetnumber-input {
+      margin: 20px;
+      width: 70px; }
+  .setting-modal__palette {
+    position: relative;
+    border: 2px solid #ddd; }
+    .setting-modal__palette-label {
+      top: -14%; }
+    .setting-modal__palette-picker {
+      margin: 20px; }
